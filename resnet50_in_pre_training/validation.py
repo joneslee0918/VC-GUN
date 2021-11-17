@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser.add_argument('--num_workers', type = int, default = 1, help = 'number of cpu threads to use during batch generation')
     # Dataset setting
     parser.add_argument('--baseroot', type = str, \
-        default = './dataset\\ILSVRC2012_processed\\ILSVRC2012_val_256', \
+        default = './dataset\\', \
             help = 'the training folder, while adding "\\" at the end of this string')
     parser.add_argument('--crop_size', type = int, default = 256, help = 'size of image crop')
     parser.add_argument('--train_size', type = int, default = 256, help = 'size of image for training')
